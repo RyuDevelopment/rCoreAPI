@@ -4,7 +4,7 @@ Welcome to the rCore Developer API, the core of ranks for your project.
 
 # Get main API class
 ```java
-CoreAPI.INSTANCE or CoreAPI.{system}
+CoreAPI.INSTANCE.{system} in java or CoreAPI.{system} in kotlin
 ```
 
 # Profile System
