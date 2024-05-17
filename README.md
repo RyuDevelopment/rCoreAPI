@@ -42,4 +42,4 @@ In Java:
   Tag tag = CoreAPI.INSTANCE.getTagManager().findByName(tagName);
 ```
 
-This complete README provides an introduction to the project, followed by usage examples for the main functionalities of the API, and a footer indicating that the documentation may not be complete, but efforts are being made to add more functions.
+## This complete README provides an introduction to the project, followed by usage examples for the main functionalities of the API, and a footer indicating that the documentation may not be complete, but efforts are being made to add more functions.
