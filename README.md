@@ -7,7 +7,7 @@ Welcome to the rCore Developer API, the core of ranks for your project.
   CoreAPI.{system}
 ```
 In Java: 
-```java
+```kotlin
   CoreAPI.INSTANCE.{system}
 ```
 
@@ -18,7 +18,7 @@ In kotlin:
   val profile = CoreAPI.profileManager.findById(uniqueId)
 ```
 In Java: 
-```java
+```kotlin
   Profile profile = CoreAPI.INSTANCE.getProfileManager().findById(uniqueId);
 ```
 
@@ -28,7 +28,7 @@ In kotlin:
   val rank = CoreAPI.rankManager.findById(rankName)
 ```
 In Java: 
-```java
+```kotlin
   Rank rank = CoreAPI.INSTANCE.getRankManager().findById(rankName);
 ```
 
@@ -38,7 +38,7 @@ In kotlin:
   val tag = CoreAPI.tagManager.findByName(tagName)
 ```
 In Java: 
-```java
+```kotlin
   Tag tag = CoreAPI.INSTANCE.getTagManager().findByName(tagName);
 ```
 
